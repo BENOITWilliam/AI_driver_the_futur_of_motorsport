@@ -1,0 +1,6 @@
+train: ../../data/train/images
+val: ../../data/val/images
+test: ../../data/test/images
+
+nc: 16
+names: ['13', 'SC_flag', 'X_flag', 'black_and_yellow', 'black_flag', 'black_orange_dot', 'blue_flag', 'chequered_flag', 'green_flag', 'rain_flag', 'red_flag', 'red_yellow', 'white_flag', 'yellow_flag', 'test', 'car']
