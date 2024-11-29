@@ -38,6 +38,7 @@ To accomplish this objective I have done this work like if the train vision mode
 ```
 
 </br>
+
 ### 🗒️ Prequisites 🗒️
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green)
@@ -71,12 +72,14 @@ Once you have install all the fills, run the `train.py` if you want to start a t
 If you want to test the vision model, run `test.py`. You will find the image in `test/dataset_test_output`.
 
 </br>
+
 ## 📁 Dataset 📁
 
 The dataset is a mix of two dataset from roboflow. The labeling of this images are also from roboflow where I have change the name of some classes such as car. <a href="https://universe.roboflow.com/project-duycq/f1-vjcba">The first dataset</a> is only composed of flags, <a href="https://universe.roboflow.com/f1detection/detect-cars-irh8v">the second dataset</a> is for car detection.
 The dataset is divided with 95% of the images for training, 4% for validation and 1% for the test.
 
 </br>
+
 ## ⚡ Performance ⚡
 
 YOLO11 models for detection comes in multiple models :
@@ -121,6 +124,7 @@ We can see on the following video, that has been detect by the vision model, tha
 </figure>
 
 </br>
+
 ## 💼 Future work 💼
 
 To improve this project we could use more images of cars in the training dataset.
@@ -134,6 +138,7 @@ Futhermore, if we imagine the vision model going in car, we could train with bet
 </figure>
 
 </br>
+
 ## 🤝 **Thank You for Your Support!** 🤝 
 
 We welcome contributions and feedback to improve this project. Let's make the driver of tomorrow!
