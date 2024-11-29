@@ -9,7 +9,7 @@ To accomplish this objective I have done this work like if the train vision mode
 <a href="https://docs.ultralytics.com/models/yolo11/" target="_blank">
   <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/yolo/performance-comparison.png" alt="YOLO11 performance plots">
 </a>
-
+</br>
 
 ## 🔧 Setup 🔧
 
@@ -37,6 +37,7 @@ To accomplish this objective I have done this work like if the train vision mode
 └── yolo11s.pt
 ```
 
+</br>
 ### 🗒️ Prequisites 🗒️
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green)
@@ -69,11 +70,13 @@ You will need a version of python ≥ [3.12](https://www.python.org/downloads/re
 Once you have install all the fills, run the `train.py` if you want to start a training. You can change all the parameters for the training in this file in the setting part.
 If you want to test the vision model, run `test.py`. You will find the image in `test/dataset_test_output`.
 
+</br>
 ## 📁 Dataset 📁
 
 The dataset is a mix of two dataset from roboflow. The labeling of this images are also from roboflow where I have change the name of some classes such as car. <a href="https://universe.roboflow.com/project-duycq/f1-vjcba">The first dataset</a> is only composed of flags, <a href="https://universe.roboflow.com/f1detection/detect-cars-irh8v">the second dataset</a> is for car detection.
 The dataset is divided with 95% of the images for training, 4% for validation and 1% for the test.
 
+</br>
 ## ⚡ Performance ⚡
 
 YOLO11 models for detection comes in multiple models :
@@ -90,6 +93,7 @@ In a first time I started to train my vision model on collab. I tried three vers
 
 All the following pictures come from the last training with Yolov11s :
 
+</br>
 <figure style="align: center">
   <img src="runs/detect/yolo11s_color_test_/results.png" alt="results" style="width: 80%; max-width: 800px;"/>
 </figure>
@@ -99,20 +103,24 @@ At the beginning of the project, I have search for methods that can make the tra
 
 We can see, on the two followings images, that during the validation, the vision model detect all the flags.
 
+</br>
 <figure style="align: center">
   <img src="runs/detect/yolo11s_color_test_/val_batch0_pred.jpg" alt="val 0" style="width: 80%; max-width: 800px;"/>
 </figure>
 
+</br>
 <figure style="align: center">
   <img src="runs/detect/yolo11s_color_test_/val_batch1_pred.jpg" alt="val 1" style="width: 80%; max-width: 800px;"/>
 </figure>
 
 We can see on the following video, that has been detect by the vision model, that at some moments the cars are not recognize but, with the number of images provided and the running time, it is an interesent result.
 
+</br>
 <figure style="align: center">
   <img src="test/dataset_test_output/video.gif" alt="val 1" width=1000px/>
 </figure>
 
+</br>
 ## 💼 Future work 💼
 
 To improve this project we could use more images of cars in the training dataset.
@@ -120,11 +128,12 @@ A good thing to add to this project, is a video where we can saw not only others
 
 Futhermore, if we imagine the vision model going in car, we could train with better GPUs to have a medium version of the model.
 
+</br>
 <figure style="align: center">
-  <img src="runs/detect/yolo11s_color_test_/labels.jpg" alt="labels" style="width: 30%; max-width: 800px;"/>
+  <img src="runs/detect/yolo11s_color_test_/labels.jpg" alt="labels" style="width: 40%; max-width: 800px;"/>
 </figure>
 
-
+</br>
 ## 🤝 **Thank You for Your Support!** 🤝 
 
 We welcome contributions and feedback to improve this project. Let's make the driver of tomorrow!
