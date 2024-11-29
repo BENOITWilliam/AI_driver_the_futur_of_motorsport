@@ -1,6 +1,7 @@
 # 🏎️ Yolo - AI driver the futur of motorsport 🏎️
 
 </br>
+
 The objective of this project was to train a vision model that detect FIA (International Automobile Federation) regulation during races. In the future a AI category of race could appear. This project is aimed to think about how the visions models will be train and the limitation of using it. This work could be important for a company who wants to try to enter in this new categories.
 
 </br>
