@@ -121,5 +121,5 @@ A good thing to add to this project, is a video where we can saw not only others
 Futhermore, if we imagine the vision model going in car, we could train with better GPUs to have a medium version of the model.
 
 <figure style="align: center">
-  <img src="runs/detect/yolo11s_color_test_/labels.jpg" alt="labels" style="width: 80%; max-width: 800px;"/>
+  <img src="runs/detect/yolo11s_color_test_/labels.jpg" alt="labels" style="width: 30%; max-width: 800px;"/>
 </figure>
