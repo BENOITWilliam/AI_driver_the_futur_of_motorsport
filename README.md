@@ -11,6 +11,32 @@ To accomplish this objective I have done this work like if the train vision mode
 </a>
 
 
+## Setup
+
+### Structure of the project
+
+```
+├── data/
+│   ├── data/
+│   │   ├── test/
+│   │   ├── train/
+│   │   └── val/
+│   ├── data.yaml
+│   └── yolo11s.pt
+├── runs/detect/yolo11s_color_test/
+│   ├── weights/
+│   │   ├── best.pt
+│   │   └── last.pt
+│   └── images generate by Yolo
+├── test/
+│   └── dataset_test_output/
+├── README.md
+├── test.py
+├── train.py
+├── yolo11n.pt
+└── yolo11s.pt
+```
+
 ## Dataset
 
 The dataset is a mix of two dataset from roboflow. The labeling of this images are also from roboflow where I have change the name of some classes such as car. <a href="https://universe.roboflow.com/project-duycq/f1-vjcba">The first dataset</a> is only composed of flags, <a href="https://universe.roboflow.com/f1detection/detect-cars-irh8v">the second dataset</a> is for car detection.
