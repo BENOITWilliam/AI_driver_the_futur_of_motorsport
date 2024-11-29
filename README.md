@@ -1,4 +1,4 @@
-#Yolo - AI driver the futur of motorsport#
+#Yolo - AI driver the futur of motorsport
 
 The objective of this project was to train a vision model that detect FIA (International Automobile Federation) regulation during races. In the futur a AI category of race could appear. This project is aimed to think about how the visions models will be train and the limitation of using it. This work could be important for a company who wants to try to enter in this new categories.
 
