@@ -4,7 +4,7 @@ The objective of this project was to train a vision model that detect FIA (Inter
 
 To accomplish this objective I have done this work like if the train vision model will be in a race car in the near futur. For that, I decided to use a fast and lightweight vision model such as Yolov11s. During the race, the vision detection needs to be fast to have the time to modify the car's actions before getting a penalty or a crash. Furthermore, in all the competition you have technical regulations that change according on the category. Having a lightweight vision model allow you to go in all technical regulation and, generally, requires lighter components which is extremely important in racing. This can be important for a company because they will not need to work on a new vision model when the technical regulations of the category change or when they want to enter in a new one.
 
-
+</br>
 <a href="https://docs.ultralytics.com/models/yolo11/" target="_blank">
   <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/yolo/performance-comparison.png" alt="YOLO11 performance plots">
 </a>
