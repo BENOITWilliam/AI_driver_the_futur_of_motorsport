@@ -51,7 +51,7 @@ First of all clone the project on your computer
 git clone https://github.com/BENOITWilliam/AI_driver_the_futur_of_motorsport.git
 ```
 
-You will need a version of python ≥ [3.12](https://www.python.org/downloads/release/python-3127/https://www.python.org/downloads/release/python-3127/ "Download Python") with :
+You will need a version of python ≥ [3.12](https://www.python.org/downloads/release/python-3120/) with :
   * Torch (In this project, we used the version 2.4.1+cu118 [you can find the install command here](https://pytorch.org/get-started/locally/ "Pytorch download page")
   * Ultralytics (In this project, we used the version 8.3.13)
   * Cuda if you are using a Nvidia GPU
