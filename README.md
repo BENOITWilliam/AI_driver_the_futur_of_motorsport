@@ -11,9 +11,9 @@ To accomplish this objective I have done this work like if the train vision mode
 </a>
 
 
-## Setup
+## 🔧 Setup 🔧
 
-### Structure of the project
+### 💻 Structure of the project 💻
 
 ```
 ├── data/
@@ -37,7 +37,7 @@ To accomplish this objective I have done this work like if the train vision mode
 └── yolo11s.pt
 ```
 
-### Prequisites
+### 🗒️ Prequisites 🗒️
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green)
 
@@ -69,12 +69,12 @@ You will need a version of python ≥ [3.12](https://www.python.org/downloads/re
 Once you have install all the fills, run the `train.py` if you want to start a training. You can change all the parameters for the training in this file in the setting part.
 If you want to test the vision model, run `test.py`. You will find the image in `test/dataset_test_output`.
 
-## Dataset
+## 📁 Dataset 📁
 
 The dataset is a mix of two dataset from roboflow. The labeling of this images are also from roboflow where I have change the name of some classes such as car. <a href="https://universe.roboflow.com/project-duycq/f1-vjcba">The first dataset</a> is only composed of flags, <a href="https://universe.roboflow.com/f1detection/detect-cars-irh8v">the second dataset</a> is for car detection.
 The dataset is divided with 95% of the images for training, 4% for validation and 1% for the test.
 
-## Performance
+## ⚡ Performance ⚡
 
 YOLO11 models for detection comes in multiple models :
 
@@ -113,7 +113,7 @@ We can see on the following video, that has been detect by the vision model, tha
   <img src="test/dataset_test_output/video.gif" alt="val 1" width=1000px/>
 </figure>
 
-## Future work
+## 💼 Future work 💼
 
 To improve this project we could use more images of cars in the training dataset.
 A good thing to add to this project, is a video where we can saw not only others cars but also flags on it.
@@ -123,3 +123,8 @@ Futhermore, if we imagine the vision model going in car, we could train with bet
 <figure style="align: center">
   <img src="runs/detect/yolo11s_color_test_/labels.jpg" alt="labels" style="width: 30%; max-width: 800px;"/>
 </figure>
+
+
+### 🤝 **Thank You for Your Support!** 🤝 
+
+We welcome contributions and feedback to improve this project. Let's make the driver of tomorrow!
