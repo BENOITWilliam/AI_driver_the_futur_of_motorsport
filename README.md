@@ -125,6 +125,6 @@ Futhermore, if we imagine the vision model going in car, we could train with bet
 </figure>
 
 
-### 🤝 **Thank You for Your Support!** 🤝 
+## 🤝 **Thank You for Your Support!** 🤝 
 
 We welcome contributions and feedback to improve this project. Let's make the driver of tomorrow!
