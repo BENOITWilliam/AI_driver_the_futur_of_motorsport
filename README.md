@@ -22,11 +22,20 @@ In a first time I started to train my vision model on collab. I tried three vers
 
 All the following pictures come from the last training with Yolov11s :
 
-<center>
-  <figure style="align: center">
-    <img src="runs/detect/yolo11s_color_test_/results.png" alt="results" style="width: 80%; max-width: 800px;"/>
-  </figure>
-</center>
+<figure style="align: center">
+  <img src="runs/detect/yolo11s_color_test_/results.png" alt="results" style="width: 80%; max-width: 800px;"/>
+</figure>
 
 The last training is a training with the small version using 100 epochs that has taken 1H40 using a Laptop RTX 3050 Ti.
 At the beginning of the project, I have search for methods that can make the training less long and more accurate. One of the most used solution is to use a gray and white filter but, in this project we need to know the colors of the différents flags, we can't use filters. In the end the solution to increase the accuracy of the vision model was to give images with noise during the training that could simulate the high speed during a race or some weather condition such as the rain.
+
+We can see, on the two followings images, that during the validation, the vision model detect all the flags.
+
+<figure style="align: center">
+  <img src="runs/detect/yolo11s_color_test_/val_batch0_pred.jpg" alt="val 0" style="width: 80%; max-width: 800px;"/>
+</figure>
+
+<figure style="align: center">
+  <img src="runs/detect/yolo11s_color_test_/val_batch1_pred.jpg" alt="val 1" style="width: 80%; max-width: 800px;"/>
+</figure>
+
