@@ -37,6 +37,36 @@ To accomplish this objective I have done this work like if the train vision mode
 └── yolo11s.pt
 ```
 
+###Prequisites
+
+First of all clone the project on your computer
+```
+git clone https://github.com/BENOITWilliam/AI_driver_the_futur_of_motorsport.git
+```
+
+You will need a version of python ≥ [3.12](https://www.python.org/downloads/release/python-3127/https://www.python.org/downloads/release/python-3127/ "Download Python") with :
+  * Torch (In this project we used the version 2.4.1+cu118 [you can find the install command here](https://pytorch.org/get-started/locally/ "Pytorch download page")
+  * Ultralytics (In this project we used the version 8.3.13)
+  * Cuda if your using a Nvidia GPU
+  * 
+    * try `nvcc --version` in a terminal to ensure that CUDA toolkit is installed
+    * also try running `torch.cuda.is_available()` to ensure it is available, and thus ensure maximum possible speed on your Nvidia GPU
+
+      ```python
+      >>> import torch
+      >>> torch.cuda.is_available()
+      True
+      ```
+  ```
+  pip install ultralytics torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 opencv-python pyyaml
+  ```
+
+> [!WARNING]
+> Be carefull of not changing the paths, if not you will have problems to run the program
+
+Once you have install all the fills, run the `train.py` if you want to start a training. You can change all the parameters for the training in this file in the setting part.
+If you want to test the vision model, run `test.py`. You will find the image in `test/dataset_test_output`.
+
 ## Dataset
 
 The dataset is a mix of two dataset from roboflow. The labeling of this images are also from roboflow where I have change the name of some classes such as car. <a href="https://universe.roboflow.com/project-duycq/f1-vjcba">The first dataset</a> is only composed of flags, <a href="https://universe.roboflow.com/f1detection/detect-cars-irh8v">the second dataset</a> is for car detection.
