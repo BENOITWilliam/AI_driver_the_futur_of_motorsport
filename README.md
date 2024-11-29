@@ -113,3 +113,13 @@ We can see on the following video, that has been detect by the vision model, tha
   <img src="test/dataset_test_output/video.gif" alt="val 1" width=1000px/>
 </figure>
 
+## Future work
+
+To improve this project we could use more images of cars in the training dataset.
+A good thing to add to this project, is a video where we can saw not only others cars but also flags on it.
+
+Futhermore, if we imagine the vision model going in car, we could train with better GPUs to have a medium version of the model.
+
+<figure style="align: center">
+  <img src="runs/detect/yolo11s_color_test_/labels.jpg" alt="labels" style="width: 80%; max-width: 800px;"/>
+</figure>
