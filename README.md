@@ -108,6 +108,6 @@ We can see, on the two followings images, that during the validation, the vision
 We can see on the following video, that has been detect by the vision model, that at some moments the cars are not recognize but, with the number of images provided and the running time, it is an interesent result.
 
 <figure style="align: center">
-  <img src="test/dataset_test_output/video.gif" alt="val 1" width:800px/>
+  <img src="test/dataset_test_output/video.gif" alt="val 1" width=100%/>
 </figure>
 
