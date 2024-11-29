@@ -105,3 +105,7 @@ We can see, on the two followings images, that during the validation, the vision
   <img src="runs/detect/yolo11s_color_test_/val_batch1_pred.jpg" alt="val 1" style="width: 80%; max-width: 800px;"/>
 </figure>
 
+We can see on the following video, that has been detect by the vision model, that at some moments the cars are not recognize but, with the number of images provided and the running time, it is an interesent result.
+
+
+
